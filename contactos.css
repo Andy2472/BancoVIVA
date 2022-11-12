@@ -55,6 +55,7 @@ header{
 
 .segundo h3{
     font-family: 'Raleway', sans-serif;
+    text-align: center;
     /* font-family: 'Caveat Brush', cursive; */
     /* font-family: 'Inconsolata', monospace */
 }
@@ -387,10 +388,17 @@ header{
     .facebook, .twitter, .whats,.instagram,.pinterest, .youtube{
         font-size: 13px;
     }
+    .facebook_twitter, .instagram_youtube, .whatsapp_pinterest{
+        width: 38%;
+    }
+
 }
 @media (max-width:600px) {
     .facebook, .twitter, .whats,.instagram, .pinterest, .youtube{
         font-size: 10px;
+    }
+    .tercero i{
+        width: 14%;
     }
 }
 
@@ -420,6 +428,7 @@ footer{
     width: 180px;
     color: rgb(255, 255, 255);
     opacity: .5;
+    text-align: center;
 }
 .footer_foot{
     height: 1px;
