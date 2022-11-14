@@ -42,11 +42,12 @@ border-bottom-right-radius: 20px;
     height: 80%;
     object-fit: contain;
 }
-.logo h1{
-    color: azure;
+/* #logo-a{
+    color:red;
+    text-decoration: none;
     font-weight:500;
     opacity: .9;
-}
+} */
 
 .recarga_contenedor{
     width: 100%;
