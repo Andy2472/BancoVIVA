@@ -8,14 +8,16 @@ body{
     background-image: linear-gradient(180deg, #464386 0, #1b214d 50%, #00001b 100%);
     background-repeat: no-repeat;
     background-size: 100% 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .cuadroRegistro{
     width: 400px;
-    background: rgb(0, 0, 0);
+    background-image: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%);
     padding: 30px;
-    margin: auto;
-    margin-top: 100px;
     border-radius: 10px;
     font-family: 'calibri';
     color: white;
@@ -30,7 +32,7 @@ body{
 
 .controles{
     width: 100%;
-    background: rgb(0, 0, 0);
+    background: white;
     padding: 10px;
     border-radius: 4px;
     margin-bottom: 16px;

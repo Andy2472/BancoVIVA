@@ -417,6 +417,7 @@ font-size:40px;
     flex-direction: column;
     justify-content:center;
     align-items: center;
+    text-align: center;
 }
 .contenedor_hijo4 img{
     width: 26%;

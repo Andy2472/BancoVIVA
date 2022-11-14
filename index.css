@@ -142,12 +142,19 @@ main{
 .imagen-derecha{
     width: 50%;
     height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     /* background-color:bisque; */
-    background-image:url(./imagenes/hombre-con-celular.png);
-    background-position: center;
+    /* background-position: center;
     background-size:contain;
-    background-repeat: no-repeat;
-    
+    background-repeat: no-repeat; */
+}
+.imagen-derecha img{
+    /* background-color: rebeccapurple; */
+    object-fit:contain;
+    height: 100%;
+    width: 100%;
 }
 
 .principal{
@@ -641,6 +648,14 @@ border-radius: 50px; */
     }
    
 }
+
+@media (max-width:564px) {
+    .imagen-derecha img{
+        height: 100%;
+    }
+}
+
+
 @media (max-width:560px) {
     .logo{
         width: 170px;

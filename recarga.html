@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,89 +11,42 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <title>Recarga</title>
 </head>
+
 <body>
-    <header>
-        <nav>
-            <a class="logo" href="#">
-                <img src="imagenes/logo500.png" alt="">
-            </a>
-
-            <ul class="menu">
-                <li><a href="index.html">Inicio</a></li>
-                <li><a target="_blank" href="#">Conocenos</a></li>
-                <li><a target="_blank" href="#">Contactos</a></li>
-                <li><a target="_blank" href="seguridad.html">Seguridad</a></li>
-                <li><a target="_blank" href="recarga.html">Recarga</a></li>
-                <li><a target="_blank" href="#">Tu+VIVA</a>
-                <li id="inicia"><a target="_blank" href="inicia_sesion.html">Inicia Sesion</a></li>
-                    <!-- <ul class="submenu">
-                        <li><a href="#">Solicita tu prestamo</a></li>
-                        <li><a href="#">Adquiere tu tarjeta</a></li>
-                        <li><a href="#">Inversion</a></li>
-                        <li><a href="#">Conversion de divisas</a></li>
-                    </ul> -->
-                </li>
-            </ul>
-            <!--  <ul class="interaccion">
-                <li class="inicia-sesion"><a href="#">Inicia-sesion</a></li>
-                <li class="unete"><a href="#">¡Unete!</a></li>
-            </ul> -->
-
-        </nav>
-    </header>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <footer>
-        <div class="nombre">
-            <span style="color: yellow;">Ban</span>
-            <span style="color: blue;">co </span>
-            <span style="color: red;">VIVA</span>
+    <form class="contenedor_principal" action="#">
+        <div class="logo">
+            <img src="imagenes/logito.png" alt="">
+            <h1>BancoVIVA</h1>
         </div>
-        <div class="footer_contenedor">
-            <div class="footer_main desarrolladores">
-                <p>Desarrollado por</p>
-                <ul>
-                    <li><a href="#">Yilmar Andres Rodriguez Lasso</a></li>
-                    <li><a href="#">Kevin Santiago Garzon Mazabel</a></li>
-                    <li><a href="#">Juan Esteban Avila Ceballos</a></li>
-                </ul>
+        <div class="recarga_contenedor">
+            <div class="recarga">
+                <h3>Recarga tu cuenta</h3>
             </div>
-            <div class="footer_main redes-sociales">
-                <p>Redes sociales</p>
-                <ul>
-                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i>Facebook</a></li>
-                    <li><a href="#"><i class="fa-brands fa-twitter"></i>Twitter</a></li>
-                    <li><a href="#"><i class="fa-brands fa-instagram"></i>Instagram</a></li>
-                    <li><a href="#"><i class="fa-brands fa-youtube"></i>YouTube</a></li>
-                </ul>
+            <div class="input_numeros">
+                <input id="numero" type="number" placeholder="Numero de celular">
+                <input id="confirmar_numero" type="number" placeholder="Verifica tu numero de celular">
+                <input id="confirmar_numero" type="number" placeholder="Cantidad de recarga">
             </div>
-            <div class="footer_main otras-opciones">
-                <p>Otras opciones</p>
-                <ul>
-                    <li><a href="#">Solicita tu prestamo</a></li>
-                    <li><a href="#">Adquiere tu tarjeta</a></li>
-                    <li><a href="#">Negocios</a></li><!-- Aca debemos poner algo cuando ya creemos la secion de negocios, que se llame inversion -->
-                    <li><a href="#">Conversion de divisas</a></li>
-                    <li><a href="#">Abono</a></li>
-                    <li><a href="#">Transferencia</a></li>
-                </ul>
+            <div class="banco">
+                <h2>¿De donde saldrá el dinero?</h2>
+                <select name="opciones" id="opciones">
+                    <option value="0">Nequi</option>
+                    <option value="1">Paypal</option>
+                    <option value="1">BBVA</option>
+                    <option value="1">Nubank</option>
+                </select>
+            </div>
+            <div class="boton_recarga">
+                <a href="#">Recarga cuenta</a>
             </div>
         </div>
-        <div class="copy">
-            Derechos reservados para Banco VIVA &copy;
-        </div>
-    </footer>
+    </form>
 </body>
+
 </html>
+
+<!--  <select name="opciones" id="opciones">
+                    <option value="0">Hola0</option>
+                    <option value="1">Hola1</option>
+
+                </select> -->
