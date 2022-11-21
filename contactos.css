@@ -109,6 +109,8 @@ header{
 
 
 .principal{
+    /* margin-bottom:70px; */
+    position: relative;
     width: 100%;
     height: 66.8vh;
     /* background-color: rgba(0, 0, 0, 0.651); */
@@ -127,6 +129,113 @@ header{
 
 
 
+
+.decoracion_padre_uno{
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: yellow;
+    width: 140px;
+    height: 140px;
+   /*  border-top-left-radius:100px; */
+    /* border-bottom-right-radius:100px; */
+    border-bottom-left-radius:1000px;
+}
+.decoracion_hijo_uno{
+    float: right;
+    width: 110px;
+    height: 110px;
+    background-color: white;
+    border-bottom-left-radius:1000px;
+}
+.decoracion_hijo_dos{
+    float: right;
+    width: 90px;
+    height: 92px;
+    background-color: blue;
+    border-bottom-left-radius:1000px;
+}
+.decoracion_hijo_tres{
+    float: right;
+    width: 66px;
+    height: 68px;
+    background-color: white;
+    border-bottom-left-radius:1000px;
+}
+
+.decoracion_hijo_cuatro{
+    float: right;
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-bottom-left-radius:1000px;
+}
+.decoracion_hijo_cinco{
+    float: right;
+    width: 80%;
+    height: 80%;
+    background-color: red;
+    border-bottom-left-radius:1000px;
+}
+
+
+
+.decoracion_padre_dos{
+    position: absolute;
+    background-color: yellow;
+    border-radius: 80px;
+    width: 120px;
+    height: 120px;
+    left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.decoracion_hijastro_uno{
+    width: 82%;
+    height: 80%;
+    border-radius: 100px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.decoracion_hijastro_dos{
+    width: 82%;
+    height: 80%;
+    border-radius: 100px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.decoracion_hijastro_tres{
+    width: 80%;
+    height: 78%;
+    border-radius: 100px;
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+.wave{
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    width: 100%;
+    height:100px;
+}
+
+
 .titulo{
     width: 100%;
     height: 20%;
@@ -142,6 +251,8 @@ header{
     opacity: .7;
 }
 .contenedor{
+    margin-bottom:70px;
+    position: relative;
     width: 100%;
     height: 70%;
     /* background-color: red; */
@@ -418,6 +529,7 @@ header{
 footer{
     width: 100%;
     height: 100px;
+    /* background-color: #323435; */
     background-color: #323435;
     display: flex;
     justify-content: space-evenly;
