@@ -145,7 +145,7 @@ nav ul{
     width: 100%;
     *height: 500px;
     height: 100vh;
-    background-image: url(img/banner.jpg);
+    background-image: url(imagenes/banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -459,9 +459,9 @@ nav ul{
 .objetivos {
     width: 100%;
     height: 500px;
-    *background-image: linear-gradient(to right, #187acf3a 0%, #00febe44 100%), url("img/1.jpg");
+    *background-image: linear-gradient(to right, #187acf3a 0%, #00febe44 100%), url("ima/1.jpg");
     *background-image: url("https://www.pexels.com/es-es/foto/hombre-sentado-frente-a-la-computadora-380769/");
-    background-image: url(img/1.jpg); 
+    background-image: url(imagenes/1.jpg); 
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 0px;
@@ -727,7 +727,7 @@ align-items: center;
 .titequipo{
     width: 100%;
     height: 400px;
-    background: url(img/imgequipo1.jpg);
+    background: url(imagenes/imgequipo1.jpg);
     background-position: 0px;
     background-repeat: no-repeat;
     background-size: cover;
