@@ -81,10 +81,32 @@ input[type=submit]{
 }
 
 
+@media (max-width:1100px) {
+    form{
+        width: 34%;
+    }
+}
+@media (max-width:800px) {
+    form{
+        width: 36%;
+    }
+}
+@media (max-width:700px) {
+    form{
+        width: 46%;
+    }
+}
+@media (max-width:500px) {
+    form{
+        width: 50%;
+    }
+}
 
-
-
-
+@media (max-width:440px) {
+    form{
+        width: 56%;
+    }
+}
 
 
 
